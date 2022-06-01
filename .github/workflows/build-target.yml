@@ -1,9 +1,7 @@
 # This is an action script to build and attach the packages to a release
 name: Build hw-management release artifacts
 
-on: 
-  release:
-    types: [published]
+on: workflow_dispatch
     
 jobs:
   rpm_build:
