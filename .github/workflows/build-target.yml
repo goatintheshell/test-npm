@@ -11,4 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install build packages
-
+        run: |
+          sudo apt-get install rpm
+          
