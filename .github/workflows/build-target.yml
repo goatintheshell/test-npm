@@ -13,4 +13,5 @@ jobs:
       - name: Install build packages
         run: |
           sudo apt-get install rpm
+          sudo apt-get install devscripts build-essential lintian dh-make
           
